@@ -9,7 +9,7 @@ echo "<br>";
 $formulaire->ajouterbouton("envoyer");
 $formulaire->getform();
 
-echo $_GET["nom"]." a pour code ".$_GET["code"];
+echo $_POST["nom"]." a pour code ".$_POST["code"];
 
 
 ?>

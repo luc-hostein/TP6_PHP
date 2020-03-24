@@ -4,7 +4,7 @@ class formulaire{
 
     function __construct()
     {
-        echo "<form action='testformulaire.php' method='get'>";
+        echo "<form action='testformulaire.php' method='post'>";
     }
 
     function ajouterzonetexte($text,$name){
