@@ -2,9 +2,9 @@
 
 class formulaire{
 
-    function __construct()
+    function __construct($url)
     {
-        echo "<form action='testformulaire.php' method='post'>";
+        echo "<form action='$url' method='post'>";
     }
 
     function ajouterzonetexte($text,$name){

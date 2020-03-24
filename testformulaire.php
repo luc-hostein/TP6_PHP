@@ -1,7 +1,7 @@
 <?php
 include 'formulaire.php';
 
-$formulaire = new formulaire();
+$formulaire = new formulaire("testformulaire.php");
 
 $formulaire->ajouterzonetexte("<br>Votre nom :","nom");
 $formulaire->ajouterzonetexte("<br>Votre code :","code");
